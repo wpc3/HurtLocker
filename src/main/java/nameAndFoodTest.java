@@ -53,8 +53,22 @@ public class nameAndFoodTest {
 
     }
 
+    @Test
+    public void milkTest2(){
+        FixNameTypesFood fixNameTypesFood = new FixNameTypesFood();
+
+        String s = fixNameTypesFood.fixMilk(FixNameTypesFood.rawData);
+        String expected = "Milk 6";
+
+        Assert.assertEquals(expected,s);
+    }
 
 
+
+    @Test
+    public void milkTest3(){
+
+    }
 
 
 
